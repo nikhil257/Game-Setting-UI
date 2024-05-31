@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: url(/thumb-1920-269969.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color:white;
+    display: flex;
+    align-items:flex-start;
+    gap:5px;
+}
+.menu{
+    width: 20%;
+    height: 59%;
+    background: linear-gradient(to bottom, #000000ce, #0a08245f);
+    font-family: gilroy;
+    padding:30px 20px;
+}
+.menu > h1{
+    font-weight:400;
+    border-bottom:1px solid gray;
+    margin-bottom: 13px;
+    font-family:Zilap Orion Personal Use Linear;
+}
+.menu > p > span{
+    display: block;
+    padding:5px 0px;
+}
+.menu > p > span:nth-child(6){
+    background-color: white;
+    color:black;
+}
+.overlay{
+    width: 39%;
+    height: 100%;
+    background: linear-gradient(to bottom, #000000ce, #0a08245f);
+    padding:30px 20px;
+}
+.overlay > h1{
+    font-family:Zilap Orion Personal Use Linear;
+    color:white;
+    border-bottom: 1px solid gray;
+    margin-bottom:15px;
+}
+.overlay > p{
+    font-style: italic;
+    font-family: gilroy;
+    font-size:13px ;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.table{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+    padding:20px 30px;
+}
+.table ul{
+    list-style-type: none;
+    font-family:gilroy;
+}
+.table-value{
+    text-align: right;
+}
+.table-value i{
+    color:rgb(173, 172, 172);
+}
+.table-items > ul > li:last-child:hover{
+    background-color: rgb(255, 255, 255);
+    color:black;
+    cursor: pointer;
+    width: 170%;
+}
+.table-items h2{
+    font-family: gilroy;
+    font-size:17px;
+    margin-top :20px;
+}
+.table-items h2 meter{
+    width: 200px;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.overlay2{
+    width: 400px;
+    height: 180px;
+    background: linear-gradient(to left, #04040463, #0a08245f);
+    font-family: gilroy;
+    padding:20px;
+}
+.overlay2 p input{
+    width: 80%;
+    margin-bottom:20px;
+}
+.max{
+    width: 32%;
+    font-family:Zilap Orion Personal Use Linear;
+    line-height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    padding:10px 0px;
+}
+.max > h1{
+    font-size: 70px;
+    text-align: right;
+}
